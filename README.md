@@ -1,2 +1,2 @@
 # streamdeck-cooldown
-A cooldown timer action that will disable the button for a configurable time
+A cooldown timer action that will disable a streamdeck button for a configurable time
