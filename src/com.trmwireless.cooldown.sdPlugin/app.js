@@ -25,10 +25,6 @@ myAction.onKeyUp(({ action, context, device, event, payload }) => {
 	});
 });
 
-myAction.onDialRotate(({ action, context, device, event, payload }) => {
-	console.log('Your dial code goes here!');
-});
-
 function timeoutPromise(duration) {
     return new Promise((resolve) => {
         setTimeout(() => {
