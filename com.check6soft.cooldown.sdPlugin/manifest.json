@@ -7,7 +7,12 @@
         {
           "Image": "images/button-background",
           "TitleAlignment": "middle", 
-          "FontSize": "72"
+          "FontSize": "24"
+        },
+        {
+          "Image": "images/button-background",
+          "TitleAlignment": "middle", 
+          "FontSize": "24"
         }
       ], 
       "SupportedInMultiActions": false,
