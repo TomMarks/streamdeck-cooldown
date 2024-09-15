@@ -123,7 +123,7 @@ var cooldownAction = {
         settings = this.setStoreKey(
             settings, 
             COOLDOWN_READY_IMG_KEY, 
-            this.getImage(BACKGROUND_IMAGE_PATH, false)
+            this.getImage(BACKGROUND_IMAGE_PATH, false).await()
         );
         this.SetImage(context, settings[COOLDOWN_READY_IMG_KEY]);
         this.SetSettings(context, settings);
