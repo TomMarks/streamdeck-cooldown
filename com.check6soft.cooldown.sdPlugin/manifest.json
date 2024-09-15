@@ -1,27 +1,29 @@
 {
   "Actions": [
     {
-      "Icon": "actionIcon", 
-      "Name": "Counter", 
+      "Icon": "images/button-icon-cropped", 
+      "Name": "Cooldown Timeout", 
       "States": [
         {
-          "Image": "actionDefaultImage",
+          "Image": "images/button-background",
           "TitleAlignment": "middle", 
-          "FontSize": "16"
+          "FontSize": "72"
         }
       ], 
       "SupportedInMultiActions": false,
-      "Tooltip": "How many times did you get pwned today? Keep track with this counter.", 
-      "UUID": "com.elgato.counter.action",
+      "Tooltip": "Keep track of your stratagem cooldowns.", 
+      "UUID": "com.check6soft.cooldown.cooldownTimeout",
 	  "UserTitleEnabled": false
     }
   ], 
   "SDKVersion": 2,
-  "Author": "Elgato", 
+  "Author": "Check6 Software", 
   "CodePath": "code.html", 
-  "Description": "Track the number of times you press a key.", 
-  "Name": "Counter", 
-  "Icon": "pluginIcon", 
+  "Description": "Disable button and show a countdown timeout.", 
+  "Name": "Cooldown", 
+  "Category": "Check6soft",
+  "CategoryIcon": "images/actionIcon",
+  "Icon": "images/button-icon-cropped", 
   "URL": "https://www.elgato.com/gaming/stream-deck", 
   "Version": "1.4.1",
   "OS": [
